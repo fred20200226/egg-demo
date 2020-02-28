@@ -1,21 +1,16 @@
 {
-  "name": "xiaomishop",
+  "name": "init",
   "version": "1.0.0",
-  "description": "egg project",
+  "description": "",
   "private": true,
   "egg": {
     "declarations": true
   },
   "dependencies": {
-    "egg": "^2.22.2",
+    "egg": "^2.15.1",
     "egg-cors": "^2.2.3",
     "egg-mongoose": "^3.2.0",
-    "egg-scripts": "^2.11.0",
-    "egg-view-ejs": "^2.0.0",
-    "jimp": "^0.6.4",
-    "md5": "^2.2.1",
-    "silly-datetime": "^0.1.2",
-    "svg-captcha": "^1.4.0"
+    "egg-scripts": "^2.11.0"
   },
   "devDependencies": {
     "autod": "^3.0.1",
@@ -30,8 +25,8 @@
     "node": ">=10.0.0"
   },
   "scripts": {
-    "start": "egg-scripts start --daemon --title=egg-server-xiaomishop",
-    "stop": "egg-scripts stop --title=egg-server-xiaomishop",
+    "start": "egg-scripts start --daemon --title=egg-server-init",
+    "stop": "egg-scripts stop --title=egg-server-init",
     "dev": "egg-bin dev",
     "debug": "egg-bin debug",
     "test": "npm run lint -- --fix && npm run test-local",
@@ -48,6 +43,6 @@
     "type": "git",
     "url": ""
   },
-  "author": "Benjamin",
+  "author": "",
   "license": "MIT"
 }

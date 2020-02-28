@@ -1,6 +1,33 @@
-# egg-demo
-1.项目分为前端和后端，前端vue + ant-design-vue + axios,后端egg.js + mongodb,有简单的增删改查效果
-2.前端的访问地址使用http://127.0.0.1:8080,不要使用http://localhost:8080,否则会报错
-3.数据库配置地址在./backEnd/config/config.default.js里面，改为自己的数据库
+# init
 
 
+
+## QuickStart
+
+<!-- add docs here for user -->
+
+see [egg docs][egg] for more detail.
+
+### Development
+
+```bash
+$ npm i
+$ npm run dev
+$ open http://localhost:7001/
+```
+
+### Deploy
+
+```bash
+$ npm start
+$ npm stop
+```
+
+### npm scripts
+
+- Use `npm run lint` to check code style.
+- Use `npm test` to run unit test.
+- Use `npm run autod` to auto detect dependencies upgrade, see [autod](https://www.npmjs.com/package/autod) for more detail.
+
+
+[egg]: https://eggjs.org
